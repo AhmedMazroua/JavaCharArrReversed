@@ -6,7 +6,7 @@ public class Algorithms {
         reversecharArr(arr);
     }
 
-    public static void reversecharArr(char[] rray) {
+    public static char[] reversecharArr(char[] rray) {
         int start = 0;
         int end = rray.length -1;
 
@@ -20,6 +20,7 @@ public class Algorithms {
 
         System.out.println(Arrays.toString(rray));
 
+        return rray;
     }
 }
 
